@@ -1,0 +1,10 @@
+C:\Users\PrashanthDeekonda\Desktop\DatingApplication-ASP.NetCore-and-Angular5\DatingApp.API\bin\Debug\netcoreapp2.0\DatingApp.API.deps.json
+C:\Users\PrashanthDeekonda\Desktop\DatingApplication-ASP.NetCore-and-Angular5\DatingApp.API\bin\Debug\netcoreapp2.0\DatingApp.API.runtimeconfig.json
+C:\Users\PrashanthDeekonda\Desktop\DatingApplication-ASP.NetCore-and-Angular5\DatingApp.API\bin\Debug\netcoreapp2.0\DatingApp.API.runtimeconfig.dev.json
+C:\Users\PrashanthDeekonda\Desktop\DatingApplication-ASP.NetCore-and-Angular5\DatingApp.API\bin\Debug\netcoreapp2.0\DatingApp.API.dll
+C:\Users\PrashanthDeekonda\Desktop\DatingApplication-ASP.NetCore-and-Angular5\DatingApp.API\bin\Debug\netcoreapp2.0\DatingApp.API.pdb
+C:\Users\PrashanthDeekonda\Desktop\DatingApplication-ASP.NetCore-and-Angular5\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.csproj.CoreCompileInputs.cache
+C:\Users\PrashanthDeekonda\Desktop\DatingApplication-ASP.NetCore-and-Angular5\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.AssemblyInfoInputs.cache
+C:\Users\PrashanthDeekonda\Desktop\DatingApplication-ASP.NetCore-and-Angular5\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.AssemblyInfo.cs
+C:\Users\PrashanthDeekonda\Desktop\DatingApplication-ASP.NetCore-and-Angular5\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.dll
+C:\Users\PrashanthDeekonda\Desktop\DatingApplication-ASP.NetCore-and-Angular5\DatingApp.API\obj\Debug\netcoreapp2.0\DatingApp.API.pdb
