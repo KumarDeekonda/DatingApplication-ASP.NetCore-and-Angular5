@@ -11,13 +11,10 @@ export class ValueComponent implements OnInit {
   constructor(private http: Http) { }
 
   ngOnInit() {
-    this.getvalues();
+
   }
 
-  getvalues() {
-    this.http.get('http://localhost:5000/api/values').subscribe(response => {
-    this.values = response.json();
-        });
+
   }
 
-}
+
