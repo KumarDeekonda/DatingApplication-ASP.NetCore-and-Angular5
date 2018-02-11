@@ -27,8 +27,10 @@ namespace DatingApp.API.Controllers
 
         public async Task<IActionResult> Register([FromBody]UserForRegisterDto userForregisterDto)
         {
-            if(!string.IsNullOrEmpty(userForregisterDto.Username)){
-                userForregisterDto.Username = userForregisterDto.Username.ToLower();}
+            if (!string.IsNullOrEmpty(userForregisterDto.Username))
+            {
+                userForregisterDto.Username = userForregisterDto.Username.ToLower();
+            }
 
             if (await _repo.UserExists(userForregisterDto.Username))
                 //return BadRequest("Username is already taken");
@@ -52,7 +54,7 @@ namespace DatingApp.API.Controllers
 
         public async Task<IActionResult> Login([FromBody]UserForLoginDto userForLoginDto)
         {
-            throw new Exception("Computer Says No!!");
+
 
             var userFromRepo = await _repo.Login(userForLoginDto.Username.ToLower(), userForLoginDto.Password);
 
