@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
 import { AuthService } from './_services/auth.service';
 import { AuthGuard } from './_guards/auth.guard';
+import { UserService } from './_services/user.service';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -20,6 +21,7 @@ import { MessagesComponent } from './messages/messages.component';
 
 
 
+
 @NgModule({
   declarations: [AppComponent, NavComponent, HomeComponent, RegisterComponent,
     MemberListComponent,
@@ -27,7 +29,7 @@ import { MessagesComponent } from './messages/messages.component';
     MessagesComponent
 ],
   imports: [BrowserModule, HttpModule, FormsModule, BsDropdownModule.forRoot(), RouterModule.forRoot(appRoutes)],
-  providers: [AuthService, AlertifyService, AuthGuard],
+  providers: [AuthService, AlertifyService, AuthGuard, UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
